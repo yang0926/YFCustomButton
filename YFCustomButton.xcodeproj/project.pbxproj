@@ -13,6 +13,9 @@
 		6E1F9A1F1D5C4B6800C9ECB8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6E1F9A1D1D5C4B6800C9ECB8 /* Main.storyboard */; };
 		6E1F9A211D5C4B6800C9ECB8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6E1F9A201D5C4B6800C9ECB8 /* Assets.xcassets */; };
 		6E1F9A241D5C4B6800C9ECB8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6E1F9A221D5C4B6800C9ECB8 /* LaunchScreen.storyboard */; };
+		6E1F9A2D1D5C4C1C00C9ECB8 /* YFCustomButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E1F9A2C1D5C4C1C00C9ECB8 /* YFCustomButton.m */; };
+		6E1F9A2F1D5C51F000C9ECB8 /* AppIcon60x60@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 6E1F9A2E1D5C51F000C9ECB8 /* AppIcon60x60@3x.png */; };
+		6E1F9A321D5C58B000C9ECB8 /* UIButton+ImageTitleSpacing.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E1F9A311D5C58B000C9ECB8 /* UIButton+ImageTitleSpacing.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +29,11 @@
 		6E1F9A201D5C4B6800C9ECB8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		6E1F9A231D5C4B6800C9ECB8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		6E1F9A251D5C4B6800C9ECB8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6E1F9A2B1D5C4C1C00C9ECB8 /* YFCustomButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YFCustomButton.h; sourceTree = "<group>"; };
+		6E1F9A2C1D5C4C1C00C9ECB8 /* YFCustomButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YFCustomButton.m; sourceTree = "<group>"; };
+		6E1F9A2E1D5C51F000C9ECB8 /* AppIcon60x60@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "AppIcon60x60@3x.png"; sourceTree = "<group>"; };
+		6E1F9A301D5C58B000C9ECB8 /* UIButton+ImageTitleSpacing.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIButton+ImageTitleSpacing.h"; sourceTree = "<group>"; };
+		6E1F9A311D5C58B000C9ECB8 /* UIButton+ImageTitleSpacing.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIButton+ImageTitleSpacing.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +66,9 @@
 		6E1F9A131D5C4B6800C9ECB8 /* YFCustomButton */ = {
 			isa = PBXGroup;
 			children = (
+				6E1F9A301D5C58B000C9ECB8 /* UIButton+ImageTitleSpacing.h */,
+				6E1F9A311D5C58B000C9ECB8 /* UIButton+ImageTitleSpacing.m */,
+				6E1F9A2E1D5C51F000C9ECB8 /* AppIcon60x60@3x.png */,
 				6E1F9A171D5C4B6800C9ECB8 /* AppDelegate.h */,
 				6E1F9A181D5C4B6800C9ECB8 /* AppDelegate.m */,
 				6E1F9A1A1D5C4B6800C9ECB8 /* ViewController.h */,
@@ -67,6 +78,8 @@
 				6E1F9A221D5C4B6800C9ECB8 /* LaunchScreen.storyboard */,
 				6E1F9A251D5C4B6800C9ECB8 /* Info.plist */,
 				6E1F9A141D5C4B6800C9ECB8 /* Supporting Files */,
+				6E1F9A2B1D5C4C1C00C9ECB8 /* YFCustomButton.h */,
+				6E1F9A2C1D5C4C1C00C9ECB8 /* YFCustomButton.m */,
 			);
 			path = YFCustomButton;
 			sourceTree = "<group>";
@@ -139,6 +152,7 @@
 				6E1F9A241D5C4B6800C9ECB8 /* LaunchScreen.storyboard in Resources */,
 				6E1F9A211D5C4B6800C9ECB8 /* Assets.xcassets in Resources */,
 				6E1F9A1F1D5C4B6800C9ECB8 /* Main.storyboard in Resources */,
+				6E1F9A2F1D5C51F000C9ECB8 /* AppIcon60x60@3x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -150,7 +164,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				6E1F9A1C1D5C4B6800C9ECB8 /* ViewController.m in Sources */,
+				6E1F9A2D1D5C4C1C00C9ECB8 /* YFCustomButton.m in Sources */,
 				6E1F9A191D5C4B6800C9ECB8 /* AppDelegate.m in Sources */,
+				6E1F9A321D5C58B000C9ECB8 /* UIButton+ImageTitleSpacing.m in Sources */,
 				6E1F9A161D5C4B6800C9ECB8 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
